@@ -1,5 +1,4 @@
 import logging
-import asyncio
 import os
 
 from bot import bot
