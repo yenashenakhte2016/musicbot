@@ -8,11 +8,6 @@ from database import prepare_index
 
 rest = RestBridge(bot)
 
-    await prepare_index()
-    await rest.start()
-    await bot.loop()
-    await rest.stop()
-
 
 if __name__ == '__main__':
     loglevel = logging.DEBUG if os.getenv("DEBUG") else logging.INFO
