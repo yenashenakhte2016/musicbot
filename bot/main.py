@@ -8,13 +8,13 @@ from database import prepare_index
 
 rest = RestBridge(bot)
 
-async def start():
+async def start()
     await prepare_index()
     await rest.start()
     await bot.loop()
 
 
-async def stop():
+async def stop()
     await rest.stop()
 
 
