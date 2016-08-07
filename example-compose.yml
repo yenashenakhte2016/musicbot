@@ -4,8 +4,8 @@ musicbot:
   links:
     - mongo
   environment:
-    - BOT_NAME=MusicCatalogBot
-    - API_TOKEN=Telegram API token
+    - BOT_NAME=SearchMusic_Rebot
+    - API_TOKEN=127195655:AAH8I4QVpq4nFOUmnHnHFKfibwPJ6pdZOBM
     - BOTAN_TOKEN=Optional botan token
     - MONGO_HOST=mongo
 mongo:
